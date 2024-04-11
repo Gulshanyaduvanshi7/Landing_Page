@@ -52,3 +52,43 @@
     font-size: 144px;
     line-height: 168.75px;
 }
+
+.role
+{
+    min-width: 100vw;
+}
+
+.options
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 53px;
+    min-width: 30vw;
+    min-height: 30vh;
+    padding: 10rem;
+}
+
+.wd
+{
+    min-width: 20vw;
+    min-height: 60vh;
+    border:2px solid grey ;
+    box-shadow: 2px 2px;
+}
+
+.ad
+{
+    min-width: 20vw;
+    min-height: 60vh;
+    border:2px solid grey ;
+    box-shadow: 2px 2px;
+}
+
+.ui
+{
+    min-width: 20vw;
+    min-height: 60vh;
+    border:2px solid grey ;
+    box-shadow: 2px 2px;
+}
