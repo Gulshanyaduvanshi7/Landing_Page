@@ -55,40 +55,91 @@
 
 .role
 {
-    min-width: 100vw;
-}
-
-.options
-{
     align-items: center;
     display: flex;
     flex-direction: row;
-    gap: 53px;
-    min-width: 30vw;
-    min-height: 30vh;
-    padding: 10rem;
+    justify-content:center;
+    margin: 100px 220px;
+    gap: 60px;
 }
 
-.wd
+.bc
 {
-    min-width: 20vw;
-    min-height: 60vh;
-    border:2px solid grey ;
-    box-shadow: 2px 2px;
+    width:1066px;
+    height:450px;
+    box-shadow:3px 5px 5px rgba(1,1,1,0.2);
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
 }
 
-.ad
+.bc:hover
 {
-    min-width: 20vw;
-    min-height: 60vh;
-    border:2px solid grey ;
-    box-shadow: 2px 2px;
+    transform: scale(1.1);
+    box-shadow:3px 5px 5px rgba(1,1,1,0.5);
+    transition: 0.3s ease-in-out;
 }
 
-.ui
+.second
 {
-    min-width: 20vw;
-    min-height: 60vh;
-    border:2px solid grey ;
-    box-shadow: 2px 2px;
+    min-width: 100%;
+    display:flex;
+    flex-direction: row;
+}
+
+.contact
+{
+    background-color: #515603;
+    min-width: 720px;
+    min-height: 378px;
+}
+
+.contact h1
+{
+    color: white;
+    font-size: 80px;
+    margin: 20px 70px;
+    font-weight: 100;
+}
+
+.contact p
+{
+    color: white;
+    text-align: justify;
+    margin: 20px 70px;
+}
+
+.about
+{
+    background-color: #3a1818;
+    min-width: 720px;
+    min-height: 378px;
+}
+
+.about h1
+{
+    color: white;
+    font-size: 80px;
+    margin: 20px 70px;
+    font-weight: 100;
+}
+
+.about p
+{
+    color: white;
+    text-align: justify;
+    margin: 20px 70px;
+}
+
+.lower
+{
+    min-height: 138px;
+    background-color: #000000;
+}
+
+.lower h1
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
